@@ -1,0 +1,53 @@
+.App {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(172, 170, 170);
+  }
+  
+  .Sidebar {
+    
+    height: 100%;
+    width: 280px;
+    background-color: #333;
+  }
+  
+  .SidebarList {
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column
+  }
+  
+  .SidebarList .row {
+    width: 100%;
+    height: 60px;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: rgb(250, 247, 247);
+    cursor: pointer;
+  }
+  
+  .SidebarList .row:hover {
+    background-color: rgba(71, 68, 67, 0.959);
+    color: white;
+  }
+  
+  .SidebarList .row#active {
+    background-color: rgb(102, 80, 66);
+    color: white;
+  }
+  
+  #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+  }
+  
+  #title {
+    flex: 70%;
+  }
+  
